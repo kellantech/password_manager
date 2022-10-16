@@ -1,1 +1,2 @@
 kellanb-cryptography==0.2.1
+termcolor==2.0.1
