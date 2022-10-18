@@ -21,8 +21,8 @@ try:
 
       except ValueError as e:
         if e.args[0] == "MAC check failed":
-          print("bad password")
-      
+          t = ("bad password")
+          print(colored(t,"white","on_red"))
   print('v: veiw all passwords \na: add a password\nq: quit\nr: add a random password')    
   def add_random_pass(enkey,appname):
     p = secrets.token_urlsafe(16)
